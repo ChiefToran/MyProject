@@ -1,0 +1,55 @@
+
+body{
+	background-image: url(../images/p1.jpg);
+	background-color: gray;
+}
+.nav{
+	margin: 5px;
+}
+.nav a {
+	padding: 40px;
+
+}
+.nav ul{
+	list-style-type: none;
+	float: right;
+}
+
+.home-section {
+	margin: 150px
+}
+.home-section h3 {
+	margin-bottom:100px ;
+	text-align: center;
+}
+.home-section h1{
+	text-align: center;
+	font-size: 80px;
+
+
+}
+.home-section h2{
+	text-align: center;
+	margin-top: 180px;
+
+}
+.home-section button{
+	margin-left: 420px;
+	padding: 15px;
+
+} 
+
+.second-section {
+
+}
+
+.humberger{
+	display: inline-block;
+	cursor: pointer;
+}
+.bar1,.bar3, .bar2{
+	height: 100%;
+	width: 3px;
+	background-color: black;
+	display: initial;
+}
