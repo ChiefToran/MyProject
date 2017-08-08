@@ -1,5 +1,11 @@
 body {
-	background-image: url(../images/p1.jpg);
+	background-image: url(../images/p11.jpg);
+	background-repeat: no-repeat;
+	width: auto;
+	height: auto;
+}
+.header{
+	height: 120px;
 
 }
 .header-logo{
@@ -9,14 +15,70 @@ body {
 }
 .nav{
 	float: right;
-	margin:
 }
 .index{
 	display: inline-block;
 	margin-top: 20px;
 	text-align: center;
-	padding: 20px
+	margin:20px;
 }
-.index a{
-	padding: 30px
+.index a {
+	color: white;
+	padding: 30px;
+	text-decoration: none;
 }
+.index a:hover {
+	color: green;
+	background-color: black;
+}
+.main {
+	text-align: center;
+}
+.main p{
+	margin-top: 125px;
+	color:white;
+}
+.main h1{
+	font-size: 50;
+	size: bold;
+	margin-bottom: -100px;
+	color:white;
+}
+.main-botton{
+	padding:20px;
+	padding-right: 35px;
+	padding-left: 35px;
+	margin-bottom: 180px;
+
+}
+.main-botton a{
+	margin: -50px;
+	padding-right:50px;
+	padding-left:50px;
+	padding-top:30px;
+	padding-bottom:30px;
+	text-decoration: none;
+}
+.main-botton a:hover {
+	color: #454352;
+	background-color: black;
+}
+.second-section{
+	background-color: white;
+	margin-top: 90px;
+}
+.second-section h2{
+	text-align: center;
+	padding-top: -65px;
+	padding-bottom: -50px;
+	border-top:43px;
+	border-bottom: 43px;
+	border-color: red;
+
+}
+.second-sectidon hr{
+	padding-bdottom: 50px;
+
+
+}
+
